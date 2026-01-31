@@ -18,16 +18,16 @@ pip install -r requirements.txt
 
 Example `accounts.txt`:
 ```
-0xYOUR_PRIVATE_KEY_1
-0xYOUR_PRIVATE_KEY_2
+YOUR_PRIVATE_KEY_1
+YOUR_PRIVATE_KEY_2
 ```
 
 Example `fee_recipients.txt`:
 ```
-0xRecipient1,0.00003
-0xRecipient2,0.00003
+Wallet1,BNB_AMOUNT
+Wallet2,BNB_AMOUNT
 ```
-
+Ex: 0xxxabcd, 0.00003
 ## Quick Start (menu)
 ```bash
 python3 bot.py
@@ -65,3 +65,9 @@ This repo includes a `.gitignore` to keep secrets out of git:
 
 ## Disclaimer
 Use at your own risk. This tool signs transactions locally.
+
+## Support
+If you run into issues, contact: **zeddric123@gmail.com**
+
+## Donate
+BNB: `0xA7af0614EB124Df73b94507C736Bf3Ce0691E4ed`
